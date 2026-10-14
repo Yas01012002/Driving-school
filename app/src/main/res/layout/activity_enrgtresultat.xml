@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluee1"
+    android:orientation="vertical"
+    tools:context=".Enrgtresultat">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ouiounon"
+        />
+
+    <EditText
+        android:id="@+id/nomcon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="#30ffffff"
+        android:gravity="center"
+        android:hint="Nom"
+        android:textColor="@color/white"
+        android:textColorHint="@color/bluee2"
+        android:inputType="textShortMessage" />
+
+    <EditText
+        android:id="@+id/prenomcon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="#30ffffff"
+        android:gravity="center"
+        android:hint="Prenom"
+        android:textColor="@color/white"
+        android:textColorHint="@color/bluee2"
+        android:inputType="textShortMessage" />
+
+    <Spinner
+        android:id="@+id/typecon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="#30ffffff"
+        android:gravity="center"
+        android:entries="@array/spinnerlist"
+        android:textColor="@color/white"
+        android:textColorHint="@color/bluee2"
+        android:inputType="textShortMessage" />
+
+    <RadioGroup
+        android:id="@+id/radio_gr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/radioech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:text="échoué" />
+
+
+        <RadioButton
+            android:id="@+id/radio_acc"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="72dp"
+            android:text="Réussi"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </RadioGroup>
+
+    <Button
+
+        android:id="@+id/ADDR"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/bluee"
+        android:text="Affecter résultat"
+        android:textColor="@color/bluee2"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

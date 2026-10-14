@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluee1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/Nomcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:background="#30ffffff"
+            android:layout_marginTop="25sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/Prenomcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:background="#30ffffff"
+            android:layout_marginTop="25sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/datecc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:background="#30ffffff"
+            android:layout_marginTop="25sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/heurecc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:background="#30ffffff"
+            android:layout_marginTop="25sp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/typecc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:background="#30ffffff"
+            android:layout_marginTop="25sp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/idcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:background="#30ffffff"
+            android:layout_marginTop="25sp"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

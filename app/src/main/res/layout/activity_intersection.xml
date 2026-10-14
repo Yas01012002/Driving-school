@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluee"
+    tools:context=".Intersection">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img1"
+                    android:layout_centerInParent="true"
+                    android:text="1-Rouge 2-JAUNE"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card1"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img2"
+                    android:layout_centerInParent="true"
+                    android:text="1-Bleu 2-Rouge et jaune "
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card2"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img3"
+                    android:layout_centerInParent="true"
+                    android:text="1-Bleu 2-Rouge 3-jaune "
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card3"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img4"
+                    android:layout_centerInParent="true"
+                    android:text="1-jaune et piéton 2-blue 3-Rouge attend feu vert"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card5"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card4"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img5"
+                    android:layout_centerInParent="true"
+                    android:text="1-Rouge et bleu 2-Jaune"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card6"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card5"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img6"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img6"
+                    android:layout_centerInParent="true"
+                    android:text="1-Rouge 2-jaune et bleu attendent feu vert"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card7"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card6"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img7"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img7"
+                    android:layout_centerInParent="true"
+                    android:text="1-jaune 2-Rouge 3-bleu"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card8"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card7"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img8"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dd8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img8"
+                    android:layout_centerInParent="true"
+                    android:text="1-Bleu et vert  2-jaune et rouge attendent feu vert"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card9"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card8"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img9"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img9"
+                    android:layout_centerInParent="true"
+                    android:text="1-rouge  2-blue et vert"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card10"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card9"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img10"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dd8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img10"
+                    android:layout_centerInParent="true"
+                    android:text="1-Bleu et les deux jaunes  2- rouge attend feu vert"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card11"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card10"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img11"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dd8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img11"
+                    android:layout_centerInParent="true"
+                    android:text="1-Cedez le passage"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card15"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card14"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img15"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d15" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img15"
+                    android:layout_centerInParent="true"
+                    android:text="1-rouge et jaune  2-blanche  et blue"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card13"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card12"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img13"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d13" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img13"
+                    android:layout_centerInParent="true"
+                    android:text="1-jaune  2- deux blues 3-rouge"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card14"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card13"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img14"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img14"
+                    android:layout_centerInParent="true"
+                    android:text="1-rouge et blue  2-jaune  "
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card12"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card11"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img12"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img12"
+                    android:layout_centerInParent="true"
+                    android:text="1-rouge et jaune  2-blanche  et vert attendent feu vert"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card16"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card15"
+            app:cardBackgroundColor="@color/bluee2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img16"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/d16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img16"
+                    android:layout_centerInParent="true"
+                    android:text="1-rouge et jaune  2-bleu"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</ScrollView>

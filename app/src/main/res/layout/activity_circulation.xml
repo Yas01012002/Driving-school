@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/bluee"
+    tools:context=".Circulation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/car1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/bluee2"
+
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/mgn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mg2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mgn1"
+                    android:layout_centerInParent="true"
+                    android:text="Pour être bien installé au poste de conduite et afin d'être à l'aise, le conducteur doit tout d'abord Réglez son siège"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/car2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/car1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/bluee2"
+
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/mgn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mg00" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mgn2"
+                    android:layout_centerInParent="true"
+                    android:text="boucler votre ceinture de sécurité"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/car3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/car2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/bluee2"
+
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/mgn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mg4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mgn3"
+                    android:layout_centerInParent="true"
+                    android:text="Mettez le contact en insérant la clé dans le trou correspondant"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/car4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/car3"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/bluee2"
+
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/mgn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mg3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mgn4"
+                    android:layout_centerInParent="true"
+                    android:text="il faut correctement ajustés ses rétroviseur intérieur et ses rétroviseurs extérieurs"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/car5"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/car4"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/bluee2"
+
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/mgn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mg5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mgn5"
+                    android:layout_centerInParent="true"
+                    android:text="Appuyer sur la pédale d'embaryage et engagez la premiere vitesse"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/car6"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/car5"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/bluee2"
+
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/mgn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mgg" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mgn6"
+                    android:layout_centerInParent="true"
+                    android:text="Allumé le clignotant"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/car7"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/car6"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/bluee2"
+
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/mgn7"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mg6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mgn7"
+                    android:layout_centerInParent="true"
+                    android:text="Relacher le frein à main"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/car8"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/car7"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/bluee2"
+
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/mgn8"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mg" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mgn8"
+                    android:layout_centerInParent="true"
+                    android:text=" placer les mains sur le volant
+en position 9h15 ou 10h10"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/car9"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/car8"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/bluee2"
+
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/mgn9"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mg8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mgn9"
+                    android:layout_centerInParent="true"
+                    android:text=" changement de vitesse"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bluee4"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</ScrollView>

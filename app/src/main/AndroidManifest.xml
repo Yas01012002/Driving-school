@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Auto_école"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Resultatexmcand"
+            android:exported="false" />
+        <activity
+            android:name=".Planningexamencandidat"
+            android:exported="false" />
+        <activity
+            android:name=".Planningcourcandidat"
+            android:exported="false" />
+        <activity
+            android:name=".Enrgtresultat"
+            android:exported="false" />
+        <activity
+            android:name=".ListUser"
+            android:exported="false" />
+        <activity
+            android:name=".afficherresultm"
+            android:exported="false" />
+        <activity
+            android:name=".Enrgtexam"
+            android:exported="false" />
+        <activity
+            android:name=".Planningexamenmoniteur"
+            android:exported="false" />
+        <activity
+            android:name=".AjoutCandidat"
+            android:exported="false" />
+        <activity
+            android:name=".Enrgstcour"
+            android:exported="false" />
+        <activity
+            android:name=".Planningmoniteurcour"
+            android:exported="false" />
+        <activity
+            android:name=".Gerercandidat"
+            android:exported="false" />
+        <activity
+            android:name=".Registre"
+            android:exported="false" />
+        <activity
+            android:name=".Moniteur"
+            android:exported="false" />
+        <activity
+            android:name=".Creneau"
+            android:exported="false" />
+        <activity
+            android:name=".Intersection"
+            android:exported="false" />
+        <activity
+            android:name=".Circulation"
+            android:exported="false" />
+        <activity
+            android:name=".Candidat"
+            android:exported="false" />
+        <activity
+            android:name=".preparation"
+            android:exported="false" />
+        <activity
+            android:name=".Panneau"
+            android:exported="false" />
+        <activity
+            android:name=".Code"
+            android:exported="false" />
+        <activity
+            android:name=".quiz"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

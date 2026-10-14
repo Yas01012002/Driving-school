@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluee1"
+    android:orientation="vertical"
+    tools:context=".Enrgstcour">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/task"
+        />
+
+    <EditText
+        android:id="@+id/nomc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="#30ffffff"
+        android:gravity="center"
+        android:hint="Nom"
+        android:textColor="@color/white"
+        android:textColorHint="@color/bluee2"
+        android:inputType="textShortMessage" />
+
+    <EditText
+        android:id="@+id/prenomc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="#30ffffff"
+        android:gravity="center"
+        android:hint="Prenom"
+        android:textColor="@color/white"
+        android:textColorHint="@color/bluee2"
+        android:inputType="textShortMessage" />
+
+    <Spinner
+        android:id="@+id/typec"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="#30ffffff"
+        android:gravity="center"
+        android:entries="@array/spinnerlist"
+        android:textColor="@color/bluee2"
+
+
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+       />
+
+
+
+    <Button
+        android:id="@+id/datePickerButton"
+        style="?android:spinnerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+
+        android:background="#30ffffff"
+        android:onClick="openDatePicker"
+        android:text=" Selectionner date"
+        android:textColor="@color/bluee2"
+        android:gravity="center"
+
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/timeButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:width="300dp"
+        android:height="50dp"
+        android:onClick="popTimePicker"
+        android:text="Selectionner heure"
+        android:textSize="20sp"
+        android:textColor="@color/bluee2"
+        android:background="#30ffffff"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+
+        android:id="@+id/ADD"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/bluee"
+        android:text="Ajouter séance"
+        android:textColor="@color/bluee2"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

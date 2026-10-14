@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@color/bluee">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        app:cardBackgroundColor="@color/bluee2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@id/image"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/semaine" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+
+
+                <TextView
+                    android:id="@+id/idnomcc"
+                    android:layout_width="100dp"
+                    android:layout_height="34dp"
+                    android:text="Nom:"
+                    android:textColor="@color/bluee4" />
+
+                <TextView
+                    android:id="@+id/idprenomcc"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:text="Prenom:"
+                    android:textColor="@color/bluee4" />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/iddatecc"
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:text="date :"
+                    android:textColor="@color/bluee4" />
+
+                <TextView
+                    android:id="@+id/idtypecc"
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    android:text="type: "
+                    android:textColor="@color/bluee4" />
+
+                <TextView
+                    android:id="@+id/idheurecc"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:text="heure:"
+                    android:textColor="@color/bluee4"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>
